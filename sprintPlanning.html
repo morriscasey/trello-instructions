@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trello Sprint Planning Setup</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/trelloStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Trello Tutorials</h1>
+        </div>
+        <div id="content" class="col-sm-8">
+          <hr>
+          <div id="sprintPlanning"><!-- Sprint Planning-->
+            <h2 class="text-center">Sprint Planning</h2>
+            <hr>
+            <h3>Purpose</h3>
+            <p>This tutorial walks through Sprint Planning phase using Trello.</p>
+            <h3>What is Sprint Planning</h3>
+            <p>It is a meeting where the product owner talks about their highest priority user stories and developers ask questions to breakdown these users stories from the product backlog into more specific technical tasks. Theses specfic tasks become part of the sprint backlog.</p>
+        
+            <hr>
+            <h3>Step-By-Step Instructions</h3>
+            <h4>Adding Technical Tasks</h4>
+            <ol>
+              <i><strong>Reminder:</strong> Technical Tasks are specific code, design, test, etc, that fulfill an acceptance criteria.</i>
+              <li>First move the user stories agreed upon for sprint to Current Sprint Backlog</li>
+              <img src="images/plan_image3.png" alt="Image showing how to moved user stories">
+              <li>Click a user story to expand the user story card</li>
+              <li>Under Add on the right-hand side click Checklist</li>
+              <img src="images/plan_image4.png" alt="Image shows where checklist button is on the right-hand side of user story card">
+              <li>Enter the title as Technical Tasks</li>
+              <img src="images/plan_image5.png" alt="Image shows where to type title for Task checklist">
+              <li>Add any related tasks needed to fulfill the acceptance criteria</li>
+              <img src="images/plan_image6.png" alt="Image shows example of tasks needed for user story">
+            </ol>
+            <h4>Adding Story Points</h4>
+            <ol>
+              <i><strong>Reminder:</strong> Story points is a measurement used to determine the amount of effort needed to implement a story and task. The measurement can be based on anything you can think of from time to complexity.</i>
+              <li>Next need to play some planning-poker to determine the points for each task</li>
+              <p><i><strong>Note:</strong> Planning-poker is a tool where a team reviews a user story and each member puts down a numeric value for the story. If the values are all different, then the team discusses why and replays the game until a concensous is made.<a href="https://www.mountaingoatsoftware.com/agile/planning-poker" target="_blank"> https://www.mountaingoatsoftware.com/agile/planning-poker</a></i>
+              <li>Add up your points per task and add the total point value to your stories by editing each user story</li>
+              <img src="images/plan_image7.png" alt="Image shows editing the user story title and adding pts to it">
+              <li>You should now have points assigned to each user story for your sprint and the additional tasks needed to complete the Sprint.</li>
+              <img src="images/plan_image8.png" alt="Image showing the changes made to user story">
+            </ol>
+            <nav>
+              <h3 class="text-center"><a href="sprintLifecycle.html">Next: Tracking user stories through Sprint Cycle</a></h3>
+            </nav>
+          </div><!-- End Sprint Planning -->
+          <hr>
+          
+        </div>
+        <div class="col-sm-3 col-sm-offset-1">
+          <nav id="pageBar">
+            <h4>Table of Contents</h4>
+            <ul>
+              <li><a href="index.php">Initial setup of a team trello board and adding team members</a></li>
+              <li><a href="backlogPlanning.html">Creating a Product Backlog</a></li>
+              <li><a href="sprintPlanning.html">Creating a Sprint Backlog</a></li>
+              <li><a href="sprintLifecycle.html">Tracking user stories through Sprint Cycle</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type='text/javascript' src='js/dynamicpage.js'></script>
+
+  </body>
+</html>

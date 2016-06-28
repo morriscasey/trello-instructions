@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sprint Lifecycle Management</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/trelloStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Trello Tutorials</h1>
+        </div>
+        <div id="content" class="col-sm-8">
+          <hr>
+          <div id="sprintPlanning"><!-- Sprint Planning-->
+            <h2 class="text-center">Tracking User Stories through Sprint Cycle</h2>
+            <hr>
+            <h3>Purpose</h3>
+            <p>This tutorial walks through using Trello during your Sprint Cycle.</p>
+            
+            <h3>What is a Sprint Cycle</h3>
+            <p>A sprint cycle is an incremental two to four week period where a Scrum team works toward a potentially shippable product. The teams works through all the tasks required to meet the user story's acceptance criteria. When all tasks are completed it is reviewed by the team and tested before accepting as done.</p>
+  
+            <h3>Step-By-Step Instructions</h3>
+            
+            <h4>Pulling Tasks</h4>
+            <ol>
+              <i><strong>Reminder:</strong> Pulling a task means each team member chooses a task from the Sprint Backlog to complete.</i>
+              <li>Review Current Sprint Backlog and the tasks for each user story</li>
+              <li>Choose one to two tasks to start working on from the Sprint's user stories</li>
+              <img src="images/cycle_image1.png" alt="Image of tasks to choose">
+              <p><i><strong>Note:</strong> Do not put a checkmark next to the task. This is done when the task is complete. We are just looking at what we want to work on.</i></p>
+              <li>Once you have chosen a task(s), make sure the user story is selected</li>
+              <li>On the right-hand side under the sub memnu Add, select Members</li>
+              <img src="images/cycle_image2.png" alt="Image showing where to member button resides">
+              <li>Select your username</li>
+              <img src="images/cycle_image3.png" alt="Image of username assigning to task">
+              <p><i><strong>Note:</strong> This is used to show others that you are working on a task in the user story.</i></p>
+              <li>Press the x to the right of Members pop-up to close out the box</li>
+              <li>You should now see your icon under the user story</li>
+              <img src="images/cycle_image4.png" alt="Image showing username icon under user story">
+            </ol>
+            <h4>Documenting what you are working on and moving a user story to In Progress</h4>
+            <ol>
+              <i><strong>Note:</strong> Since tasks can be pulled from any team member, it is helpful to document what task you are working on.</i>
+              <li>While in the user story scroll to the bottom under Add Comment</li>
+              <li>Type <i>Working on</i> and type the task(s) you want to work on.</li>
+              <li>Click Send to save</li>
+              <img src="images/cycle_image5.png" alt="Image showing comment created">
+              <li>Next move the user story working on from Current Spring Backlog list to In Progress list</li>
+              <img src="images/cycle_image6.png" alt="Image showing move from Current Sprint Backlog to In Progress">
+              <p><i><strong>Note:</strong> Now other team members know what tasks are remaining to finish a user story.</i></p>
+            </ol>
+            <h4>Completing a Task</h4>
+            <ol>
+              <i><strong>Note:</strong> When a task is complete make sure to check documentation and push the latest version of your code to repository.</i>
+              <li>Click on the user story that contains the completed task</li>
+              <li>Put a checkmark for the task completed</li>
+              <img src="images/cycle_image7.png" alt="Image showing one user's task being completed">
+              <p><i><strong>Note:</strong> The Activity section of user story documents which team member completed the task</i></p>
+              <li>Check if additional tasks needed to complete and repeat Pulling Tasks</li>
+              <img src="images/cycle_image8.png" alt="Image showing all tasks completed">
+            </ol>
+            <h4>All Tasks Completed on a User Story</h4>
+            <ol>
+              <i><strong>Note:</strong> Once all tasks are complete the team will review documentation, code, and tests.</i>
+              <li>Create a new checklist called Confirmed Review</li>
+              <li>Click Add Item for Confirmed Review</li>
+              <img src="images/cycle_image9.png" alt="Image displaying created checklist name Confirmed Review">
+              <li>Add all of your team member names</li>
+              <img src="images/cycle_image10.png" alt="Image displays all the team members names">
+              <p><i><strong>Note:</strong> This is so all team members are accountable in reviewing the tasks and code</i></p>
+              <li>Move user story from In Progress to Review</li>
+              <img src="images/cycle_image11.png" alt="Image showing where to member button resides">
+              <p><i><strong>Note:</strong> The review process is made up of testing implemented code, reviewing definition of done, and make sure acceptance criteria met for the user story.</i></p>
+              <li>Go through your review process to confirm Acceptance Criteria and Definition of Done met</li>
+              <li>Open user story once review completed</li>
+              <li>Put a checkmark next to the criteria met.</li>
+              <img src="images/cycle_image12.png" alt="Image showing acceptance criteria being reviewed">
+              <p><i><strong>Note:</strong> If any Acceptance Criteria is not met then write a comment why, add additional required tasks and move card back to Current Sprint Backlog</i></p>
+              <li>Once all Acceptance Criteria met, then each member puts a checkmark next to their name</li>
+              <img src="images/cycle_image13.png" alt="Image showing the team checking off review">
+              <li>Move user story from Review to Done</li>
+              <img src="images/cycle_image14.png" alt="Image showing user story moving from Review to Done">
+            </ol>
+            <nav>
+              <h3>This is one of many ways to use Trello. I encourage everyone to try what works best for them. Make sure to review with your teacher on any requirements that need to be met.</h3>
+            </nav>
+            <hr>
+          </div>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1">
+          <nav id="pageBar">
+            <h4>Table of Contents</h4>
+            <ul>
+              <li><a href="index.php">Initial setup of a team trello board and adding team members</a></li>
+              <li><a href="backlogPlanning.html">Creating a Product Backlog</a></li>
+              <li><a href="sprintPlanning.html">Creating a Sprint Backlog</a></li>
+              <li><a href="sprintLifecycle.html">Tracking user stories through Sprint Cycle</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type='text/javascript' src='js/dynamicpage.js'></script>
+
+  </body>
+</html>
